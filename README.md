@@ -52,8 +52,6 @@ Takes a numeral (just digits without separators (e.g. 19093 instead of 19,093) a
 - sayNumber(1043283) ➞ "One million, forty three thousand, two hundred and eighty three."
 - sayNumber(90376000010012) ➞ "Ninety trillion, three hundred and seventy six billion, ten thousand and twelve."
 
-This here is the solution:
-  * You can fill and download the document as following:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -93,7 +91,7 @@ on linux machine or mac you can install https://sdkman.io/ : then
 ### Running
 ## Usage
     To freshly run all tests,build and package the code run 'make or make all' from the terminal
-    ```- make ```
+    ``- make ``
 ### Commands for command line
 
     make                                                          To compile,verify, package and run all tests

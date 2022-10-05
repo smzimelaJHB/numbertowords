@@ -30,7 +30,7 @@ public class NumberToWordsTest
     @Test
     public void zeroTest()
     {
-        assertEquals(NumberToWords.sayNumber(new String[]{"0"}),"zero");
+        assertEquals(NumberToWords.sayNumber(new String[]{"0"}),"Zero.");
     }
 
     @Test
@@ -38,47 +38,38 @@ public class NumberToWordsTest
     {
         String[] arguments1 = new String[]{"1","2","3"};
         String[] arguments2 = new String[]{"120000000","7000","9", "77", "58"};
-        assertEquals(NumberToWords.sayNumber(arguments1).replace("\n"," "),"one two three ");
-        assertEquals(NumberToWords.sayNumber(arguments2).replace("\n"," "),"one hundred twenty million seven thousand nine seventy seven fifty eight ");
+        assertEquals(NumberToWords.sayNumber(arguments1).replace("\n"," "),"One. Two. Three. ");
+        assertEquals(NumberToWords.sayNumber(arguments2).replace("\n"," "),"One hundred and twenty million. Seven thousand. Nine. Seventy seven. Fifty eight. ");
     }
 
     @Test
     public void oneDigitNumberTest()
     {
-        assertEquals(NumberToWords.convert(1),"one");
-        assertEquals(NumberToWords.convert(2),"two");
-        assertEquals(NumberToWords.convert(3),"three");
-        assertEquals(NumberToWords.convert(4),"four");
-        assertEquals(NumberToWords.convert(5),"five");
-        assertEquals(NumberToWords.convert(6),"six");
-        assertEquals(NumberToWords.convert(7),"seven");
-        assertEquals(NumberToWords.convert(8),"eight");
-        assertEquals(NumberToWords.convert(9),"nine");
+        String[] arguments = new String[]{"1","2","3","4","5","6","7","8","9"};
+        assertEquals(NumberToWords.sayNumber(arguments).replace("\n"," "),"One. Two. Three. Four. Five. Six. Seven. Eight. Nine. ");
     }
 
 
     @Test
     public void twoDigitNumberTest()
     {
-        assertEquals(NumberToWords.convert(10),"ten");
-        assertEquals(NumberToWords.convert(22),"twenty two");
-        assertEquals(NumberToWords.convert(73),"seventy three");
+        String[] arguments = new String[]{"10","20","30","40","50","60","70","80","90"};
+        assertEquals(NumberToWords.sayNumber(arguments).replace("\n"," "),"Ten. Twenty. Thirty. Forty. Fifty. Sixty. Seventy. Eighty. Ninety. ");
     }
 
     @Test
     public void threeDigitNumberTest()
     {
-        assertEquals(NumberToWords.convert(110),"one hundred ten");
-        assertEquals(NumberToWords.convert(722),"seven hundred twenty two");
-        assertEquals(NumberToWords.convert(1000),"one thousand");
+        String[] arguments = new String[]{"110", "722", "1000"};
+        assertEquals(NumberToWords.sayNumber(arguments).replace("\n"," "),"One hundred and ten. Seven hundred and twenty two. One thousand. ");
     }
 
     @Test
     public void bigNumbersTest()
     {
-        assertEquals(NumberToWords.convert(1110),"one thousand, one hundred ten");
-        assertEquals(NumberToWords.convert(77722),"seventy seven thousand, seven hundred twenty two");
-        assertEquals(NumberToWords.convert(900000),"nine hundred thousand");
-        assertEquals(NumberToWords.convert(77800000),"seventy seven million, eight hundred thousand");
+        String[] arguments = new String[]{"9000000"};
+        assertEquals(NumberToWords.sayNumber(arguments).replace("\n"," "),"Nine million. ");
+        String[] arguments1 = new String[]{"90376000010012"};
+        assertEquals(NumberToWords.sayNumber(arguments1).replace("\n"," "),"Ninety trillion, three hundred and seventy six billion, ten thousand and twelve. ");
     }
 }
