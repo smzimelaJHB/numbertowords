@@ -6,6 +6,8 @@
 <!-- PROJECT SHIELDS -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+[![Product Name Screen Shot][product-screenshot1]]
+[![Product Name Screen Shot][product-screenshot2]]
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -115,6 +117,8 @@ Project Link: [https://github.com/smzimelaJHB/numbertowords](https://github.com/
 
 [linkedin-url]: https://www.linkedin.com/in/siyabonga-mzimela-237507b6/
 
+[product-screenshot1]: tests.png
+[product-screenshot2]: results.png
 
 
 
