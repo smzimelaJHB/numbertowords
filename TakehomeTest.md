@@ -22,7 +22,7 @@
       </ul>
     </li>
     <li>
-      <a href="#SectionD">### Section D: Loom Video Submission</a>
+      <a href="#SectionD">Section D: Loom Video Submission</a>
       <ul>
         <li><a href="#video">Link loom video</a></li>
          <dd>https://www.loom.com/share/89e1e727b6324e2998855383d4c28084</dd>
