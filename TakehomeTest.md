@@ -31,9 +31,9 @@
   </ol>
 </details>
 
-### Section A: Code Review
+# Section A: Code Review
 
-## Option 1: Python Task
+### Option 1: Python Task
 
 The overall solution class looks good considering the naming of a class as it conforms to the Python naming convention of classes as indicated on documentation, the function however does not conform as the name should consist only of lower cases separated by an underscore, so in this case (group_anagrams). I do like the fact that the function name describes what the function does. Only one loop is used which makes the code easier to read.
 
@@ -52,7 +52,7 @@ Trying to run this solution will give errors, firstly because of the indentation
 
 Line 5 will also produce an error since sorted() function expects an argument of iterable, which in this case will be 'i', a selected word in the list of strings(strs).
 
-# Please see below code with fixed errors
+### Please see below code with fixed errors
 ```
 class Solution:
     def group_anagrams(self, strs):
@@ -68,21 +68,21 @@ ob1 = Solution()
 print(ob1.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
 ```
 
-### Section B: Projects
+# Section B: Projects
 
-# Project I am most proud of:
+### Project I am most proud of:
 
 * https://github.com/smzimelaJHB/Hangman_Iteration3
 
 
-### Section C: Code Challenge
+# Section C: Code Challenge
 
-# Option 1: Say the Number : 
+### Option 1: Say the Number : 
 
 * https://github.com/smzimelaJHB/numbertowords
 
-### Section D: Loom Video Submission
+# Section D: Loom Video Submission
 
-# Link to the video:
+### Link to the video:
 
 * https://www.loom.com/share/89e1e727b6324e2998855383d4c28084

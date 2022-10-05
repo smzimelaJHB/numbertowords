@@ -44,7 +44,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 Takes a numeral (just digits without separators (e.g. 19093 instead of 19,093) and returns the standard way of reading a number, complete with punctuation.
 
 **Example**
@@ -53,7 +53,7 @@ Takes a numeral (just digits without separators (e.g. 19093 instead of 19,093) a
 - sayNumber(1043283) ➞ "One million, forty three thousand, two hundred and eighty three."
 - sayNumber(90376000010012) ➞ "Ninety trillion, three hundred and seventy six billion, ten thousand and twelve."
 
-# worst-case space complexity is 0.5 micro seconds because of recursioin
+### worst-case space complexity is 0.5 micro seconds because of recursioin
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -61,16 +61,16 @@ Takes a numeral (just digits without separators (e.g. 19093 instead of 19,093) a
 [![Product Name Screen Shot][product-screenshot1]]
 [![Product Name Screen Shot][product-screenshot2]]
 
-### Built With
+# Built With
 
 * [Java 17 and Maven]
 
 <!-- GETTING STARTED -->
-## Getting Started
+# Getting Started
 
 To get started you need to have Java 17, Apache Maven 3.8.6 and Make  on your machine.
 
-### Prerequisites Links
+# Prerequisites Links
 
 on linux machine or mac you can install https://sdkman.io/ : then
 * ```
@@ -79,7 +79,7 @@ on linux machine or mac you can install https://sdkman.io/ : then
   sudo apt install make
   ```
 
-### Installation
+# Installation
 
 
 1. Clone the repo
@@ -92,8 +92,8 @@ on linux machine or mac you can install https://sdkman.io/ : then
 
 
 <!-- USAGE EXAMPLES -->
-### Running
-## Usage
+# Running
+### Usage
     To freshly run all tests,build and package the code run 'make or make all' from the terminal
     ``- make ``
 ### Commands for command line
@@ -109,7 +109,7 @@ on linux machine or mac you can install https://sdkman.io/ : then
 
 
 <!-- CONTACT -->
-## Contact
+# Contact
 
 Project Link: [https://github.com/smzimelaJHB/numbertowords](https://github.com/smzimelaJHB/numbertowords)
 
