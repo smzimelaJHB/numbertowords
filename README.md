@@ -53,6 +53,7 @@ Takes a numeral (just digits without separators (e.g. 19093 instead of 19,093) a
 - sayNumber(1043283) ➞ "One million, forty three thousand, two hundred and eighty three."
 - sayNumber(90376000010012) ➞ "Ninety trillion, three hundred and seventy six billion, ten thousand and twelve."
 
+# worst-case space complexity is 0.5 micro seconds because of recursioin
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
