@@ -6,8 +6,7 @@
 <!-- PROJECT SHIELDS -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-[![Product Name Screen Shot][product-screenshot1]]
-[![Product Name Screen Shot][product-screenshot2]]
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -58,6 +57,8 @@ Takes a numeral (just digits without separators (e.g. 19093 instead of 19,093) a
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+[![Product Name Screen Shot][product-screenshot1]]
+[![Product Name Screen Shot][product-screenshot2]]
 
 ### Built With
 
